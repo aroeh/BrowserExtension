@@ -14,12 +14,18 @@
         text-align: center;
         font-size: 16px;
       }
+      .slide-image {
+        height: auto;
+        width: 100px;
+      }
     </style>
   </head>
   <body>
-    <h1>Show the NASA Picture of the Day</h1>
-    <h2>(click on the image to remove)</h2>
-    <button id="sendmessageid">Display</button>
+    <div id="popupcontent">
+      <h1>What would you like to do?</h1>
+      <button id="sendmessageid">See an Image</button>
+      <button id="taburl">Get Tab Url</button>
+    </div>
     <script src="popup.js"></script>
   </body>
 </html>
