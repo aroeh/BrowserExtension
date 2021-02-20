@@ -1,0 +1,26 @@
+{
+    "name": "Simple Image Popup",
+    "version": "0.0.0.1",
+    "manifest_version": 2,
+    "description": "A Chromium extension to display a picture in a popup.",
+    "icons": {
+        "16": "icons/kyaikikai16x16.png",
+        "32": "icons/kyaikikai32x32.png",
+        "48": "icons/kyaikikai48x48.png",
+        "128": "icons/kyaikikai128x128.png"
+    },
+    "browser_action": {
+        "default_popup": "popup/popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+              "<all_urls>"
+            ],
+            "js": ["lib/jquery.min.js","content-scripts/content.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        "images/*.jpg"
+    ]
+}
