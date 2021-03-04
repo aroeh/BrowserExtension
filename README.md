@@ -21,3 +21,13 @@ If you want to learn more about creating good readme files then refer the follow
 
 https://docs.microsoft.com/en-us/microsoft-edge/extensions-chromium/
 https://github.com/MicrosoftEdge/MicrosoftEdge-Extensions-Demos/tree/master/extension-getting-started-part1/part1
+
+master samples list
+https://github.com/GoogleChrome/chrome-extensions-samples/tree/main/apps/samples
+
+Samples of interest
+https://github.com/GoogleChrome/chrome-extensions-samples/tree/main/apps/samples/frameless-window
+https://github.com/GoogleChrome/chrome-extensions-samples/tree/main/apps/samples/identity
+https://github.com/GoogleChrome/chrome-extensions-samples/tree/main/apps/samples/media-gallery
+https://github.com/GoogleChrome/chrome-extensions-samples/tree/main/apps/samples/rich-notifications
+https://github.com/GoogleChrome/chrome-extensions-samples/tree/main/apps/samples/tasks
