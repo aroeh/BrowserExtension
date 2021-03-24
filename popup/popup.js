@@ -41,3 +41,24 @@ if (tabUrl) {
         }
     };
 }
+
+const whodis = document.getElementById("whoami");
+if (whodis) {
+    whodis.onclick = function() {
+        let txt = document.createElement("p");
+        txt.id = `${guidGenerator()}`;
+
+        chrome.identity.getProfileUserInfo(function(info) {
+            txt.innerHTML = "Hello " + info.email;
+        });
+
+        document.body.appendChild(txt);
+        
+        function guidGenerator() {
+            const S4 = function () {
+                return (((1 + Math.random()) * 0x10000) | 0).toString(16).substring(1);
+            };
+            return (S4() + S4() + "-" + S4() + "-" + S4() + "-" + S4() + "-" + S4() + S4() + S4());
+        }
+    };
+}
