@@ -3,7 +3,7 @@ const sendMessageId = document.getElementById("sendmessageid");
 if (sendMessageId) {
     sendMessageId.onclick = function() {
         let image = document.createElement("img");
-        image.src = "/images/Racheal-21Birthday.jpg";
+        image.src = "/images/WP_20150613_21_25_25_Pro.jpg";
         image.id = `${guidGenerator()}`;
         image.classList.add("slide-image");
         document.body.appendChild(image);
